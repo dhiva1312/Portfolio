@@ -5,7 +5,7 @@
 }
 .experience-container> div{
     background:var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
 }
@@ -38,8 +38,8 @@
    }
    .experience-container> div{
     width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
+    padding: 1rem;
+    margin: 0 2rem;
    }
    .experience-content{
     padding: 1rem;
@@ -52,8 +52,10 @@
     } */
     .experience-container{
         gap: 1rem;
+        
        
     }
+    
     .experience-content{
         gap: 1rem;
     }
