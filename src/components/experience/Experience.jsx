@@ -55,14 +55,14 @@ const Experience = () => {
             </article>
             <article className='experience-details'>
               <BsPatchCheckFill className="experience-details-icon"/>
-              <div><h4>.NET Core</h4>
+              <div><h4>Java</h4>
               <small className='text-light'>Beginner</small></div>
             </article>
-            <article className='experience-details'>
+            {/* <article className='experience-details'>
               <BsPatchCheckFill className="experience-details-icon"/>
              <div> <h4>C#</h4>
              <small className='text-light'>Beginner</small></div>
-            </article>
+            </article> */}
             <article className='experience-details'>
               <BsPatchCheckFill className="experience-details-icon"/>
               <div><h4>SQL</h4>
