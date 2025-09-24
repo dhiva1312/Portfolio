@@ -34,7 +34,7 @@ const About = () => {
                   <small>5+ Completed</small>
                 </article>
               </div>
-              <p>I'm a Frontend Developer with 1+ years of experience building dynamic web applications using React.js, React Native, and JavaScript. Currently, I'm expanding my skills in .NET and C# to become a full-stack developer. I focus on clean code, thrive in collaborative environments, 
+              <p>I'm a Frontend Developer with 1+ years of experience building dynamic web applications using React.js, React Native, and JavaScript. Currently, I'm expanding my skills in Java and Springboot to become a full-stack developer. I focus on clean code, thrive in collaborative environments, 
                 and am always eager to learn new technologies to create seamless, scalable web applications.</p>
               <a href='#contact' className='btn btn-primary'>Let's Talk</a>
             </div>
