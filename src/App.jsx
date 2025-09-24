@@ -1,27 +1,32 @@
-import React from 'react'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import Experience from './components/experience/Experience'
-import About from './components/about/About'
-import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import React, { Suspense, lazy } from "react";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
+
+// Lazy load heavy sections
+const Experience = lazy(() => import("./components/experience/Experience"));
+const Services = lazy(() => import("./components/services/Services"));
+const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
+const Contact = lazy(() => import("./components/contact/Contact"));
+const Footer = lazy(() => import("./components/footer/Footer"));
 
 const App = () => {
   return (
     <>
-      <Header/>
-      <Nav/>
-      <About/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
+      <Header />
+      <Nav />
+      <About />
 
-      <Contact/>
-      <Footer/>
+      {/* Suspense fallback until component loads */}
+      <Suspense fallback={<div className="text-center py-4">Loading...</div>}>
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </Suspense>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
