@@ -34,8 +34,9 @@ const About = () => {
                   <small>5+ Completed</small>
                 </article>
               </div>
-              <p>I'm a Frontend Developer with 1+ years of experience building dynamic web applications using React.js, React Native, and JavaScript. Currently, I'm expanding my skills in Java and Springboot to become a full-stack developer. I focus on clean code, thrive in collaborative environments, 
-                and am always eager to learn new technologies to create seamless, scalable web applications.</p>
+              <p>I’m a Full Stack Developer with 1+ years of experience building dynamic, scalable web applications using React.js, Next.js, and JavaScript. I specialize in creating seamless user experiences with server-side rendering and efficient data handling — backed by Python and SQL for strong backend logic and database performance.
+
+I’m currently leveling up my backend expertise using Java and Spring Boot, aiming to build end-to-end solutions that are clean, secure, and production-ready. I enjoy transforming ideas into high-impact products, collaborating with teams, and continuously learning new technologies to deliver modern, fast, and user-focused applications.</p>
               <a href='#contact' className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>
